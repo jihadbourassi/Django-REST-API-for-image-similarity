@@ -16,11 +16,12 @@ HOW TO INSTALL AND USE THIS PROJECT :
 - USAGE : 
 
 
-1- cd INSIDE THE APP FOLDER (/app), AND VECTORIZE THE DATABASE OF IMAGES VIA THE COMMAND (python vectorize_database.py "/path/to/the/database/of/images")
+1- cd INSIDE THE APP FOLDER (/app), AND VECTORIZE THE DATABASE OF IMAGES VIA THE COMMAND                                            (python vectorize_database.py "/path/to/the/database/of/images")
 
-2- RENAME THE VECTORS BY PUTTING THE FULL PATH TO THE /image_vectors FOLDER IN THE rename.py FILE AND USE THE FOLLOWING COMMAND ( python rename.py) note : only rename the files that contain two "." in the name
+2- RENAME THE VECTORS BY PUTTING THE FULL PATH TO THE /image_vectors FOLDER IN THE rename.py FILE AND USE THE FOLLOWING COMMAND           (python rename.py) 
+note : only rename the files that contain two "." in the name
 
-3- CREATE THE MODEL BY USING THE COMMAND ( python database_model.py)
+3- CREATE THE MODEL BY USING THE COMMAND (python database_model.py)
 
 4- cd .. BACK INTO THE MAIN DIRECTORY
 
