@@ -16,7 +16,6 @@ HOW TO INSTALL AND USE THIS PROJECT :
 - USAGE : 
 
 
-
 1- cd INSIDE THE APP FOLDER (/app), AND VECTORIZE THE DATABASE OF IMAGES VIA THE COMMAND (python vectorize_database.py "/path/to/the/database/of/images")
 
 2- IN THE APP FOLDER CREATE THE /temp FOLDER cd INSIDE IT AND CREATE /imagenet SUBFOLDER
