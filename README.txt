@@ -20,7 +20,7 @@ HOW TO INSTALL AND USE THIS PROJECT :
 
 1- CD INSIDE THE APP FOLDER (/app), DELETE THE /image_vectors  FOLDER AND VECTORIZE THE DATABASE OF IMAGES VIA THE COMMAND (python vectorize_database.py "/path/to/the/database/of/images")
 
-2- RENAME THE VECTORS BY PUTTING THE FULL PATH TO THE /image_vectors FOLDER IN THE rename.py FILE AND USE THE FOLLOWING COMMAND ( python rename.py) note : only rename the files that contain "." in the name
+2- RENAME THE VECTORS BY PUTTING THE FULL PATH TO THE /image_vectors FOLDER IN THE rename.py FILE AND USE THE FOLLOWING COMMAND ( python rename.py) note : only rename the files that contain two "." in the name
 
 3- DELETE model.ann FILE IF IT EXISTS AND CREATE THE MODEL BY USING THE COMMAND ( python database_model.py)
 
