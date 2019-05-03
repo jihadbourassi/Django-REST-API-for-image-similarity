@@ -18,13 +18,13 @@ HOW TO INSTALL AND USE THIS PROJECT :
 (SKIP 1-2-3 IF YOU WANT TO TEST WITH THE EXISTING MODEL AND DATABASE OF VECTORS)
 
 
-1- cd INSIDE THE APP FOLDER (/app), DELETE THE /image_vectors  FOLDER AND VECTORIZE THE DATABASE OF IMAGES VIA THE COMMAND (python vectorize_database.py "/path/to/the/database/of/images")
+1- cd INSIDE THE APP FOLDER (/app), AND VECTORIZE THE DATABASE OF IMAGES VIA THE COMMAND (python vectorize_database.py "/path/to/the/database/of/images")
 
 2- IN THE APP FOLDER CREATE THE /temp FOLDER cd INSIDE IT AND CREATE /imagenet SUBFOLDER
 
 3- RENAME THE VECTORS BY PUTTING THE FULL PATH TO THE /image_vectors FOLDER IN THE rename.py FILE AND USE THE FOLLOWING COMMAND ( python rename.py) note : only rename the files that contain two "." in the name
 
-4- DELETE model.ann FILE IF IT EXISTS AND CREATE THE MODEL BY USING THE COMMAND ( python database_model.py)
+4- CREATE THE MODEL BY USING THE COMMAND ( python database_model.py)
 
 5- cd IN THE /vector_img FOLDER AND CREATE THE /temp FOLDER cd INSIDE IT AND CREATE /imagenet SUBFOLDER
 
