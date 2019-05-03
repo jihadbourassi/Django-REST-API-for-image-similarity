@@ -21,7 +21,7 @@ HOW TO INSTALL AND USE THIS PROJECT :
 
 2- RENAME THE VECTORS BY PUTTING THE FULL PATH TO THE /image_vectors FOLDER IN THE rename.py FILE AND USE THE FOLLOWING COMMAND 
 (python rename.py) 
-note : only rename the files that contain three "." in the name, example : 2018.3100.002383_xx_xx_jKynk.jpg.npz --> 2018-3100-002383_xx_xx_jKynk-jpg.npz 
+note : only rename the files that contain three "." in the name, example : "2018.3100.002383_xx_xx_jKynk.jpg.npz --> 2018-3100-002383_xx_xx_jKynk-jpg.npz" 
 
 3- CREATE THE MODEL BY USING THE COMMAND (python database_model.py)
 
