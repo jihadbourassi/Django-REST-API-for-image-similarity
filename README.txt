@@ -9,7 +9,7 @@ HOW TO INSTALL AND USE THIS PROJECT :
 
 2- INSTALL PIP (https://pip.pypa.io/en/stable/installing/)
 
-3- CD INSIDE THE PROJECT AND USE THE PIP COMMAND TO INSTALL THE REQUIREMENTS VIA THE FOLLOWING COMMAND (pip install -r requirements.txt)
+3- cd INSIDE THE PROJECT AND USE THE PIP COMMAND TO INSTALL THE REQUIREMENTS VIA THE FOLLOWING COMMAND (pip install -r requirements.txt)
    note : for the annoy library you will need to install "visual c ++ build tools" first
 
 
