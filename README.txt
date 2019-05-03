@@ -18,19 +18,15 @@ HOW TO INSTALL AND USE THIS PROJECT :
 
 1- cd INSIDE THE APP FOLDER (/app), AND VECTORIZE THE DATABASE OF IMAGES VIA THE COMMAND (python vectorize_database.py "/path/to/the/database/of/images")
 
-2- IN THE APP FOLDER CREATE THE /temp FOLDER cd INSIDE IT AND CREATE /imagenet SUBFOLDER
+2- RENAME THE VECTORS BY PUTTING THE FULL PATH TO THE /image_vectors FOLDER IN THE rename.py FILE AND USE THE FOLLOWING COMMAND ( python rename.py) note : only rename the files that contain two "." in the name
 
-3- RENAME THE VECTORS BY PUTTING THE FULL PATH TO THE /image_vectors FOLDER IN THE rename.py FILE AND USE THE FOLLOWING COMMAND ( python rename.py) note : only rename the files that contain two "." in the name
+3- CREATE THE MODEL BY USING THE COMMAND ( python database_model.py)
 
-4- CREATE THE MODEL BY USING THE COMMAND ( python database_model.py)
+4- cd .. BACK INTO THE MAIN DIRECTORY
 
-5- cd IN THE /vector_img FOLDER AND CREATE THE /temp FOLDER cd INSIDE IT AND CREATE /imagenet SUBFOLDER
+5- RUN THE LOCAL SERVER VIA THE COMMAND (python manage.py runserver)
 
-6- cd .. BACK INTO THE MAIN DIRECTORY
-
-7- RUN THE LOCAL SERVER VIA THE COMMAND (python manage.py runserver)
-
-8- OPEN THE FOLLOWING LINKS : 
+6- OPEN THE FOLLOWING LINKS : 
 
 - http://127.0.0.1:8000/vector_img/ FOR UPLOADING AND VECTORIZING AN IMAGE
 
